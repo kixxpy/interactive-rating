@@ -2,7 +2,7 @@
 
 ## Приветствую тебя! 👋
 
-![](./design/desktop-preview.jpg)
+![](./design/desktop-preview.png)
 -html
 -css
 -JavaScript
