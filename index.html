@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/style.css" />
+
+	<title>Frontend Mentor | Interactive rating component</title>
+
+	<style>
+		.attribution {
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.attribution a {
+			color: hsl(228, 45%, 44%);
+		}
+	</style>
+</head>
+
+<body>
+	<img class='mode' src="./images/sun.svg" alt="sun">
+	<div class="block">
+
+		<div class="wrapper">
+			<img src="./images/icon-star.svg" alt="star" />
+		</div>
+		<h1 class="title">Как мы справились?</h1>
+		<div class="descr">
+			Пожалуйста, сообщите нам, как мы справились с вашим запросом в службу поддержки. Мы ценим
+			все отзывы, которые помогут нам улучшить наше предложение!
+		</div>
+		<div class="rating">
+			<span class='cheked''>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>5</span>
+			</div>
+			<button class="btn">отправить</button>
+		</div>
+		<div class="thank hidden">
+				<img src="./images/illustration-thank-you.svg" alt="">
+				<div class="chip">
+					<p>Вы выбрали <span id="rate"></span> из 5</p>
+				</div>
+				<h1>Спасибо!</h1>
+				<p class=' thank-p'>Мы ценим, что вы нашли время, чтобы дать оценку. Если вам когда-нибудь понадобится
+				наша помощь, не стесняйтесь обращаться!</p>
+		</div>
+		<script src="./script.js"></script>
+</body>
+
+</html>
